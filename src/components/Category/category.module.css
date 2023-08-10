@@ -1,0 +1,84 @@
+.category {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3a5a40;
+    margin-top: 100px;
+    margin: 100px auto 0 auto;
+    border-radius: 7px;
+}
+.addCategory {
+    border:none;
+    outline:none;
+    background-color: transparent;
+    color:#fff;
+    font-size:18px;
+    cursor:pointer;
+    margin-top:90px;
+}
+
+.category *{
+    display: block;
+}
+.form {
+    margin-top: 20px;
+}
+.form input , .form textarea{
+    border:none;
+    outline:none;
+    width: 350px;
+    padding:10px;
+    margin-top : 5px;
+    margin-bottom: 50px;
+    resize: none;
+    border-radius: 7px;
+    font-size: 18px;
+    background-color: #dad7cd;
+}
+
+.form textarea {
+    padding: 15px 10px;
+}
+
+.form label {
+    font-size: 18px;
+    color:#fff;
+}
+
+.buttons {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.buttons button{
+    width:160px;
+    border: none;
+    font-size:18px;
+    cursor:pointer;
+    padding:8px 15px;
+    border-radius: 7px;
+    transition: all .3s;
+}
+
+.buttons button[type="submit"]{
+    background-color:#0db70d;
+    color:#fff;
+}
+
+.buttons button[type="submit"]:hover{
+    background-color: #087408;
+}
+
+.buttons button[type="button"]{
+    color:#ff0000;
+    border: 3px solid #ff0000;
+    background-color: transparent;
+}
+
+.buttons button[type="button"]:hover{
+    color:#fff;
+    background-color: #ff0000;
+}

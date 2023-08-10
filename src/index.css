@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: "comforta";
+    src: url("./utils/font/Comfortaa-Regular.otf") format("otf"),
+    url("./utils/font/Comfortaa-Regular.ttf") format("ttf"),
+    url("./utils/font/Comfortaa-Regular.woff") format("woff");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+* {
+    font-family: comforta;
 }
+
+body {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color: #24382e;
+}
+
+main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
